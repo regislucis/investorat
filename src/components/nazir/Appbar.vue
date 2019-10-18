@@ -19,12 +19,11 @@
               <v-avatar color="white" size="38">YB</v-avatar>
           </v-btn>
         </template>
-
         <v-list>
           <v-list-item @click.stop="">
             <v-list-item-title>Setting</v-list-item-title>
           </v-list-item>
-            <v-list-item @click.stop="">
+            <v-list-item :to="{ name: 'welcome'}">
             <v-list-item-title>logout</v-list-item-title>
           </v-list-item>
         </v-list>
