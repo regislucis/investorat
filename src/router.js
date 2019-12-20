@@ -10,7 +10,7 @@ export default new Router({
     {
       path: '/',
       name: 'welcome',
-      component: () => import('./views/Home.vue')
+      component: () => import('./views/Welcome.vue')
     },
     {
       path: '/dashboard_nazir',
